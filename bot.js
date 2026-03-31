@@ -37,7 +37,7 @@ const CONFIG = {
   EMA_SLOW: parseInt(process.env.EMA_SLOW || "21"),
 
   // Interval cek harga dalam milidetik (default: 60 detik)
-  CHECK_INTERVAL_MS: parseInt(process.env.CHECK_INTERVAL_MS || "60000"),
+  CHECK_INTERVAL_MS: parseInt(process.env.CHECK_INTERVAL_MS || "300000"),
 
   // Slippage tolerance (0.5 = 0.5%)
   SLIPPAGE_BPS: parseInt(process.env.SLIPPAGE_BPS || "50"),
