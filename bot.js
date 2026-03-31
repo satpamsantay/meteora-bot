@@ -43,7 +43,7 @@ const CONFIG = {
   SLIPPAGE_BPS: parseInt(process.env.SLIPPAGE_BPS || "50"),
 
   // RPC endpoint Solana
-  RPC_URL: process.env.RPC_URL || "https://api.mainnet-beta.solana.com",
+  RPC_URL: process.env.RPC_URL || "https://mainnet.helius-rpc.com/?api-key=a54c6a65-ca4a-4341-9184-0076c1f521c5",
 };
 
 // ============================================================
